@@ -3,11 +3,9 @@
 int
 main()
 {
+	std::string name; // enter user name
+	std::cin >> name;
 
-  std::string name; // вводим имя пользователя
-  std::cin >> name;
-
-  std::cout << "Hello world from " << name
-            << std::endl; // выводим имя пользователя
-  return 0;               // завершаем программу
+	std::cout << "Hello world from " << name << std::endl; // display user name
+	return 0; // terminate
 }
