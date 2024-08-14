@@ -1,7 +1,8 @@
 #include <iostream>
 
-int main() { 
-
+int
+main()
+{
 	std::string name; // enter user name
 	std::cin >> name;
 
