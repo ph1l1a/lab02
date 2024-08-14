@@ -1,7 +1,9 @@
 #include <iostream>
 
 int
-main() { std::cout << "Hello" << " " << "world!" << std::endl; 
+main() { 
+	std::string name; std::cin >> name;
+	std::cout << "Hello" << " " << "world from " << name << std::endl; 
 
 
 
